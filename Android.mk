@@ -38,8 +38,8 @@ LOCAL_SDK_VERSION := current
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
 
 # Viper Color Engine
-$(warning *** Including Viper Color Engine ***)
-LOCAL_RESOURCE_DIR += vendor/viper/colorengine/$(LOCAL_PATH)/res
+$(warning *** Including Ecem Color Engine ***)
+LOCAL_RESOURCE_DIR += vendor/ecem/colorengine/$(LOCAL_PATH)/res
 
 LOCAL_PACKAGE_NAME := Calendar
 
